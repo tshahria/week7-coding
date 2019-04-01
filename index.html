@@ -32,7 +32,7 @@
       var markov = new RiMarkov(8);
         markov.loadFrom('poetry.txt', function(){
         if(markov.ready()) {
-        for(let i =0;i<10;i++){
+        for(let i =0;i<5;i++){
             var result = markov.generateSentences(1)[0];
             result = result.split(' ')
 
